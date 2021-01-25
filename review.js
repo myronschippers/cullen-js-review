@@ -68,5 +68,11 @@ myNumber--; // auto minus 1
 
 // Concatenation
 
-const myNewNumber = 1 + 2; //3
+const myNewNumber = 1 + '2'; // 3 instead '12'
 console.log(myNewNumber);
+const myMinus = '2' - 1;
+console.log(myMinus);
+const myDivide = '36' / 6;
+console.log(myDivide);
+const myMultiply = 'ten' * 3;
+console.log(myMultiply);
