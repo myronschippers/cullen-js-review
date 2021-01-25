@@ -172,3 +172,53 @@ const halveIt = function (aNumber) {
 };
 
 console.log('valueBack:', halveIt(22));
+
+// built-in function
+
+// parseInt();
+// parseFloat();
+console.log(parseInt(220.203));
+// Number();
+console.log(Number('234.05'));
+
+// String();
+console.log(String(240));
+const myValueIs = 'Edan';
+
+console.log(typeof myValueIs);
+
+const person = {
+  name: 'Edan',
+  height: '6ft 11in',
+  food: 'pizza',
+};
+
+console.log(Object.keys(person));
+console.log(JSON.stringify(person));
+
+const petName = 'Duncan';
+console.log(petName.charAt(1));
+console.log(petName.length);
+
+// hatList
+
+// .push() -- add to the end of array
+// .pop()
+
+// .shift()
+// .unshift() -- add to the beginning
+
+hatList.push('helmet');
+console.log(hatList);
+
+hatList.unshift('beanie');
+console.log(hatList);
+
+const removedHat = hatList.pop();
+console.log(removedHat);
+
+const removedHatFront = hatList.shift();
+console.log(removedHatFront);
+console.log(hatList);
+
+console.log(petName.split('n'));
