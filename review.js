@@ -222,3 +222,7 @@ console.log(removedHatFront);
 console.log(hatList);
 
 console.log(petName.split('n'));
+
+const formatted = `My words here.
+My dog's name is ${petName}.`;
+console.log(formatted);
